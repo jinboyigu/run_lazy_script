@@ -1,0 +1,23 @@
+{
+  "name": "run_lazy_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinboyigu/run_lazy_script.git"
+  },
+  "keywords": [
+    "run",
+    "lazy_script"
+  ],
+  "author": "jyhuang <326127285@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinboyigu/run_lazy_script/issues"
+  },
+  "homepage": "https://github.com/jinboyigu/run_lazy_script#readme"
+}
