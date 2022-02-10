@@ -29,3 +29,12 @@ jobs:
         run: node app.js
         env:
           token: '${{ secrets.TOKEN }}'
+      - name: Install npm
+        working-directory: src/lazy_script
+        run: npm install
+      - name: Run lazy_script
+        working-directory: src/lazy_script
+        run: npm run dev
+        env:
+          NODE_ENV: production
+          ACTION_ENV: '${{ secrets.ACTION_ENV }}'
