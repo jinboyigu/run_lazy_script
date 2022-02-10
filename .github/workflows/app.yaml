@@ -29,3 +29,4 @@ jobs:
         run: node app.js
         env:
           token: '${{ secrets.TOKEN }}'
+          ACTION_ENV: '${{ secrets.ACTION_ENV }}'
