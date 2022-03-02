@@ -1,8 +1,8 @@
-name: Clone And Run Lazy Script
+name: Test
 on:
   push:
     branches:
-      - master
+      - test-action
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,3 +30,4 @@ jobs:
         env:
           token: '${{ secrets.TOKEN }}'
           ACTION_ENV: '${{ secrets.ACTION_ENV }}'
+          TEST: '${{ secrets.TEST }}'
